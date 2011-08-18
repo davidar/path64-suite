@@ -1,0 +1,24 @@
+[submodule "compiler/compiler"]
+	path = compiler/compiler
+	url = git://github.com/path64/compiler.git
+[submodule "compiler/compiler-rt"]
+	path = compiler/compiler-rt
+	url = git://github.com/pathscale/compiler-rt.git
+[submodule "compiler/libcxxrt"]
+	path = compiler/libcxxrt
+	url = git://github.com/pathscale/libcxxrt.git
+[submodule "compiler/libunwind"]
+	path = compiler/libunwind
+	url = git://github.com/pathscale/libunwind.git
+[submodule "compiler/stdcxx"]
+	path = compiler/stdcxx
+	url = git://github.com/pathscale/stdcxx.git
+[submodule "compiler/assembler"]
+	path = compiler/assembler
+	url = git://github.com/path64/assembler.git
+[submodule "compiler/pathdb"]
+	path = compiler/pathdb
+	url = git://github.com/path64/debugger.git
+[submodule "compiler/libdwarf-bsd"]
+	path = compiler/libdwarf-bsd
+	url = git://github.com/pathscale/libdwarf-bsd.git

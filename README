@@ -1,20 +1,14 @@
 
-Step 1) mkdir compiler ; cd compiler 
+Step 1) git submodules update --init --recursive
 
-Step 2)
-# adjust these url if you don't want a read-only checkout
-
-git clone git://github.com/path64/compiler.git
-git clone git://github.com/pathscale/compiler-rt.git
-git clone git://github.com/path64/assembler.git
-git clone git://github.com/pathscale/libcxxrt.git
-git clone git://github.com/pathscale/libdwarf-bsd.git
-git clone git://github.com/pathscale/libunwind.git
-git clone git://github.com/path64/debugger.git pathdb
-git clone git://github.com/pathscale/stdcxx.git
+Step 2) adjust the urls in .git/config if you don't want a read-only checkout
 
 Step 3) Run ./configure or ./configure-release script from the top level
 
 Step 4) cd build or buildrelease
 
 Step 5) make # Parallel builds tested up to -j30
+
+Each of the several submodules inside "compiler" starts at a commit, rather than
+a named branch.  You can checkout master in each of them to get on the master branch,
+and then pull them.

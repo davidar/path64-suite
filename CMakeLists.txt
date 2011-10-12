@@ -201,8 +201,10 @@ if(PATH64_ENABLE_PSCRUNTIME)
                         "${CMAKE_CURRENT_SOURCE_DIR}/compiler/pathdb")
         add_subdirectory(pathdb)
     endif()
+endif()
 
-    check_directory(PATH64_LIBDWARF_SOURCE "libdwarf"
+if(PATH64_ENABLE_PSCRUNTIME OR ${CMAKE_SYSTEM_NAME} MATCHES "Windows")
+	check_directory(PATH64_LIBDWARF_SOURCE "libdwarf"
                     "${CMAKE_CURRENT_SOURCE_DIR}/compiler/libdwarf-bsd")
     add_subdirectory(libdwarf)
 endif()

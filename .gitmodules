@@ -1,0 +1,24 @@
+[submodule "compiler/pathdb"]
+	path = compiler/pathdb
+	url = https://github.com/davidar/path64-debugger.git
+[submodule "compiler/compiler"]
+	path = compiler/compiler
+	url = https://github.com/davidar/path64-compiler.git
+[submodule "compiler/assembler"]
+	path = compiler/assembler
+	url = https://github.com/davidar/path64-assembler.git
+[submodule "compiler/libcxxrt"]
+	path = compiler/libcxxrt
+	url = https://github.com/libcxxrt/libcxxrt.git
+[submodule "compiler/libunwind"]
+	path = compiler/libunwind
+	url = https://github.com/libunwind/libunwind.git
+[submodule "compiler/stdcxx"]
+	path = compiler/stdcxx
+	url = https://github.com/apache/stdcxx.git
+[submodule "compiler/libdwarf-bsd"]
+	path = compiler/libdwarf-bsd
+	url = https://github.com/davidar/libdwarf-bsd.git
+[submodule "compiler/compiler-rt"]
+	path = compiler/compiler-rt
+	url = https://github.com/llvm-mirror/compiler-rt.git
